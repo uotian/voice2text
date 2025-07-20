@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		5CB1EBD22E2CC50A00A642CA /* voice2text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = voice2text.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CB1EBD62E2CC50A00A642CA /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = System/Library/Frameworks/Speech.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -23,6 +24,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CB1EBD52E2CC50A00A642CA /* Speech.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -34,6 +36,7 @@
 			children = (
 				5CB1EBD42E2CC50A00A642CA /* voice2text */,
 				5CB1EBD32E2CC50A00A642CA /* Products */,
+				5CB1EBD72E2CC50A00A642CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -43,6 +46,14 @@
 				5CB1EBD22E2CC50A00A642CA /* voice2text.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		5CB1EBD72E2CC50A00A642CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CB1EBD62E2CC50A00A642CA /* Speech.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
